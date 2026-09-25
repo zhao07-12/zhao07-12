@@ -1,0 +1,298 @@
+Workspace Path: /mnt/c/Windows/system32
+[9/24/2026, 11:20:55 PM.408] [Info] [pid=888] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/24/2026, 11:20:55 PM.410] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=enter totalMs=0 sinceLastMs=0
+[9/24/2026, 11:20:55 PM.410] [Info] [pid=888] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/24/2026, 11:20:55 PM.410] [Info] [pid=888] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/24/2026, 11:20:55 PM.410] [Info] [pid=888] [LSPManager]  LSP Manager initialized
+[9/24/2026, 11:20:55 PM.410] [Warning] [pid=888] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/24/2026, 11:20:55 PM.410] [Warning] [pid=888] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/24/2026, 11:20:55 PM.410] [Warning] [pid=888] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/24/2026, 11:20:55 PM.410] [Warning] [pid=888] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [LoggerUploadService]  Auto upload disabled by configuration
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [LoggerUploadService]  Auto upload disabled by configuration
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [RemoteControlLifecycle]  Remote Control module initializing...
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliSettingsProvider]  CLI settings initialized: {}
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=afterStartupGate totalMs=40 sinceLastMs=40 hasGate=true
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [AuthenticationManager] userId changed: <init> -> <empty>
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [cbc-kw=WORKFLOW] [WorkflowMemProbe] installed
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [ClientProductProvider]  Reading product configuration from /$bunfs/root/product.json
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [cbc-kw=WORKFLOW] [WorkflowMemProbe] installed
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliDispatcher]  [CredentialBootstrap] CBC receiver {"eventAtMs":1790263254706,"elapsedMs":0,"route":"standalone","policy":"unset","readyConfig":"disabled","cbcPid":888,"parentPid":852,"receiverOutcome":"not-applicable","runtimeStatus":"disabled","wholeFileProtectionReady":false}
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliDispatcher]  [ColdStart] cli onStart pid=888 version=unknown
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliSettingsProvider]  CLI settings reloaded: {}
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliDispatcher]  [Dispatch] entry opts: sessionId=N/A serve=false acp=false permissionMode=N/A model=N/A agent=N/A systemPromptFile=N/A mcpConfig=N/A strictMcpConfig=false settingsLen=N/A allowedTools="N/A" port=N/A argv=["bun","/$bunfs/root/codebuddy","install","latest"]
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [CliDispatcher]  stdin skipped: sub-command 'install' does not need stdin
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [Startup] DefaultModeStrategy: waiting for auth initialization...
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=afterGetStorage totalMs=119 sinceLastMs=79 hasStorage=true
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=afterRestore totalMs=124 sinceLastMs=5 hasSession=false hasAccessToken=false
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=fastPathBeforeEmit totalMs=124 sinceLastMs=0 uid=<none> hasAccessToken=false
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=fastPathAfterEmit totalMs=125 sinceLastMs=1 uid=<none> subjectHasValue=false
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=afterSwitchBySession totalMs=125 sinceLastMs=0 switchBySessionEnabled=false
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [AuthenticationManager]  [FirstScreen] [AuthDoInitProbe] stage=resolved totalMs=125 sinceLastMs=0
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [Startup] DefaultModeStrategy: auth initialized
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [Startup] DefaultModeStrategy: entering non-interactive mode (print=false, streamMode=false, headless=false, tty=true)
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [Startup] CliExecutor: waiting for endpoint...
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [RemoteControlApiClient]  API client initialized
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [RemoteControlMessageHandler]  Message handler initialized
+[9/24/2026, 11:20:55 PM.411] [Info] [pid=888] [RemoteControlService]  Remote Control Service created, deferring async initialization...
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [ACP Server] HTTP Server ready, auto-starting streamable-http mode
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [Startup] CliExecutor: endpoint ready: http://127.0.0.1:58293
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [PTY Service] WebSocket server initialized on HTTP upgrade
+[9/24/2026, 11:20:55 PM.413] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.413] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [CentrifugoClient]  Centrifugo client initialized
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlLifecycle]  Registered 1 long connection client(s): centrifugo:default
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlLifecycle]  Remote Control module initialized successfully
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlService]  Initializing Remote Control Service...
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [WorkerRegistryLifecycle]  Worker registered with endpoint: http://127.0.0.1:58293
+[9/24/2026, 11:20:55 PM.413] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [SettingsEndpointProductProvider] resolved endpoint=<unset> env=<unset> settingScopes=user,project,project-local | settings: enterpriseEndpoint=<unset> endpoint=<unset> envRouteMode=<unset>
+[9/24/2026, 11:20:55 PM.413] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlService]  Remote Control baseUrl resolution: ENV_REMOTE_CONTROL_BASE_URL=(not set), SETTINGS_REMOTE_CONTROL_BASE_URL=(not set), ENV_CODEBUDDY_BASE_URL=(not set), DEFAULT=https://tencent.sso.codebuddy.cn/v2, finalBaseUrl=https://tencent.sso.codebuddy.cn/v2
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlService]  Generated hostId: 74de2a77-4011-4898-9de2-ec23bb1b6fbd
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlApiClient]  Config set, baseUrl: https://tencent.sso.codebuddy.cn/v2
+[9/24/2026, 11:20:55 PM.413] [Info] [pid=888] [RemoteControlService]  Initialized, enabled: true, hostId: 74de2a77-4011-4898-9de2-ec23bb1b6fbd
+[9/24/2026, 11:20:55 PM.414] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [CloudProductProvider]  cloud product fetch skipped: reason=config-disabled (consecutive=1)
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [PluginsProductProvider.provide] active=0, ids=[]
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/24/2026, 11:20:55 PM.414] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.414] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [CustomModelsProductProvider] productName=CodeBuddy, isWorkBuddy=false, userConfigPath=/home/asdfubuntu/.codebuddy/models.json
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://www.codebuddy.ai
+[9/24/2026, 11:20:55 PM.414] [Warning] [pid=888] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [AgentModelResolver] product config input: 22 models, 16 agents
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: "undefined"
+[9/24/2026, 11:20:55 PM.414] [Info] [pid=888] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/24/2026, 11:20:55 PM.414] [Warning] [pid=888] [GalileoService] disabled or invalid config, skipping: disabled
+[9/24/2026, 11:20:55 PM.420] [Info] [pid=888] [TracingService]  OTLP trace exporter resolved: url=https://www.codebuddy.ai/v1/traces source=product:endpoint(https://www.codebuddy.ai)+/v1/traces headerKeys=[Connection]
+[9/24/2026, 11:20:55 PM.422] [Info] [pid=888] [Startup] AgentManager.rebuildAgents: START
+[9/24/2026, 11:20:55 PM.422] [Info] [pid=888] [Startup] AgentManager.rebuildAgents: build already in progress, marking pending rebuild
+[9/24/2026, 11:20:55 PM.430] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.430] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.430] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.430] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.430] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.431] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.432] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.432] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.432] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.432] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.432] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.432] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.433] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.433] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.456] [Info] [pid=888] starting POST /internal/install
+[9/24/2026, 11:20:55 PM.494] [Info] [pid=888] [AgentManager] runtime cli agent view ready: 20 agents (used for registration and Agent tool descriptions)
+[9/24/2026, 11:20:55 PM.494] [Info] [pid=888] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/24/2026, 11:20:55 PM.494] [Info] [pid=888] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/24/2026, 11:20:55 PM.494] [Info] [pid=888] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/24/2026, 11:20:55 PM.494] [Info] [pid=888] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpManager.list: starting (scope=all)
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpManager.list: starting (scope=all)
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpManager.list: starting (scope=all)
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpManager.list: starting (scope=all)
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpManager.list: starting (scope=all)
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [MCP] reconcile revision=0 started (list)
+[9/24/2026, 11:20:55 PM.495] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=internal
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [Startup] McpConfigManager.list: scope=internal read completed (3ms)
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=sdk
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=contextSummary mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=contentAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=terminalTitleGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=promptSuggestion mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=memorySelector mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=summaryGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=autoModeClassifier mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=promptHookEvaluator mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=insightsAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.497] [Info] [pid=888] [MCP][registerAgent] agent=agentInstructions mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager.list: scope=sdk read completed (0ms)
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=plugin
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager: reading MCP servers from plugins...
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager: got 0 active plugins
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager: total MCP servers from plugins: 0
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager.list: scope=plugin read completed (0ms)
+[9/24/2026, 11:20:55 PM.498] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=user
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.list: scope=user read completed (0ms)
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=project
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.list: scope=project read completed (0ms)
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=local
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.list: scope=local read completed (0ms)
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/24/2026, 11:20:55 PM.499] [Info] [pid=888] [Startup] McpConfigManager.readDynamic: waiting for dynamicConfigInitialized...
+[9/24/2026, 11:20:55 PM.499] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.500] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.501] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.502] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.503] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.504] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.504] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.504] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.504] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.504] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.504] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.505] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.510] [Info] [pid=888] [MemoryLoader]  No memory rules loaded
+[9/24/2026, 11:20:55 PM.511] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=internal
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=sdk
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=plugin
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=internal
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=user
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=sdk
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=plugin
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=user
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=user inflight join
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=user read completed (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=user inflight resolved (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=project
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=project
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=project inflight join
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=project read completed (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=project inflight resolved (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=local
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=local
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=local inflight join
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=local read completed (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=local inflight resolved (0ms)
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=dynamic inflight join
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/24/2026, 11:20:55 PM.543] [Info] [pid=888] [Startup] McpConfigManager.list: scope=dynamic inflight join
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.543] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.544] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.545] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.546] [Info] [pid=888] [MCP][registerAgent] agent=compact mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.547] [Info] [pid=888] [MCP][registerAgent] agent=minimal mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.547] [Info] [pid=888] [MCP][registerAgent] agent=multitask mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.644] [Warning] [pid=888] [MCP][defer] builder.build: EARLY RETURN both summaries and mcpServerInfos empty
+[9/24/2026, 11:20:55 PM.644] [Info] [pid=888] [Startup] McpManager.list: starting (scope=all)
+[9/24/2026, 11:20:55 PM.645] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.648] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.650] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:55 PM.650] [Info] [pid=888] [MCP][registerAgent] agent=statusline-setup mcpServers=[] (count=0) grantMcpAccess=false
+[9/24/2026, 11:20:55 PM.721] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:20:57 PM.178] [Info] [pid=888] [ShellSnapshotService]  Shell snapshot warmup started
+[9/24/2026, 11:20:57 PM.178] [Info] [pid=888] [ShellSnapshotService]  Snapshot script exec start. shellPath=/bin/bash, timeoutMs=10000, maxBuffer=1048576
+[9/24/2026, 11:20:57 PM.178] [Info] [pid=888] [ShellSnapshotService]  Snapshot child process started. pid=932
+[9/24/2026, 11:20:57 PM.213] [Info] [pid=888] [HotReload] Watching 2 paths for changes
+[9/24/2026, 11:20:57 PM.235] [Info] [pid=888] [ShellSnapshotService]  Snapshot script exec finished. shellPath=/bin/bash, elapsedMs=57, stdoutLen=0, stderrLen=0
+[9/24/2026, 11:20:57 PM.260] [Info] [pid=888] [ShellSnapshotService]  Shell snapshot created successfully (5977 bytes)
+[9/24/2026, 11:20:57 PM.260] [Info] [pid=888] [ShellSnapshotService]  Shell snapshot warmup completed successfully
+[9/24/2026, 11:21:00 PM.215] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:21:00 PM.217] [Error] [pid=888] [cbc-kw=AUTH] Failed to read settings file for scope user: ENOENT
+[9/24/2026, 11:21:02 PM.887] [Info] [pid=888] ending POST /internal/install [7432ms]
+[9/24/2026, 11:21:02 PM.903] [Info] [pid=888] [ProcessExit] exit | code=0 | via=process.exit | caller=Error: exit-caller-trace\n    at au (/$bunfs/root/codebuddy:1519:763)\n    at gu (/$bunfs/root/codebuddy:1519:862)\n    at finalizeAndExit (/$bunfs/root/codebuddy:904:963)\n    at execute (/$bunfs/root/codebuddy:904:246)\n    at processTicksAndRejections (native)
+[9/24/2026, 11:24:18 PM.928] [Info] [pid=1092] [ProcessExit] exit | code=0 | via=process.exit | caller=Error: exit-caller-trace\n    at au (/$bunfs/root/codebuddy:1519:763)\n    at gu (/$bunfs/root/codebuddy:1519:862)\n    at _exit (/$bunfs/root/codebuddy:6193:339)\n    at /$bunfs/root/codebuddy:6200:13\n    at emit (node:events:118:22)\n    at parseOptions (/$bunfs/root/codebuddy:6196:4774)\n    at parseOpts (/$bunfs/root/codebuddy:896:7470)\n    at buildCliSettings (/$bunfs/root/codebuddy:2083:10436)\n    at runLoad (/$bunfs/root/codebuddy:2083:9895)\n    at processTicksAndRejections (native)

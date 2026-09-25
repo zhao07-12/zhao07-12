@@ -1,0 +1,30 @@
+{
+  "cb_teams_marketplace": {
+    "manifestName": "cb_teams_marketplace",
+    "type": "zip",
+    "source": {
+      "source": "zip",
+      "path": "https://download.codebuddy.cn/plugin-marketplace/cb_teams_marketplace.zip",
+      "url": "https://download.codebuddy.cn/plugin-marketplace/cb_teams_marketplace.zip"
+    },
+    "installLocation": "/home/asdfubuntu/.codebuddy/plugins/marketplaces/cb_teams_marketplace",
+    "description": "Marketplace from https://download.codebuddy.cn/plugin-marketplace/cb_teams_marketplace.zip",
+    "lastUpdated": "2026-09-25T07:41:38.994Z",
+    "autoUpdate": true,
+    "isBuiltIn": true
+  },
+  "codebuddy-plugins-official": {
+    "manifestName": "codebuddy-plugins-official",
+    "type": "zip",
+    "source": {
+      "source": "zip",
+      "path": "https://download.codebuddy.cn/plugin-marketplace/codebuddy-plugins-official.zip",
+      "url": "https://download.codebuddy.cn/plugin-marketplace/codebuddy-plugins-official.zip"
+    },
+    "installLocation": "/home/asdfubuntu/.codebuddy/plugins/marketplaces/codebuddy-plugins-official",
+    "description": "Marketplace from https://download.codebuddy.cn/plugin-marketplace/codebuddy-plugins-official.zip",
+    "lastUpdated": "2026-09-25T07:41:41.456Z",
+    "autoUpdate": true,
+    "isBuiltIn": true
+  }
+}

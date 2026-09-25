@@ -1,0 +1,5 @@
+2026-09-25T07:42:05.178Z [CliMemWatch] pid=5336 heapUsed=166MB heapTotal=88MB rss=318MB external=102MB cpuPercent=28.9
+2026-09-25T07:42:35.174Z [CliMemWatch] pid=5336 heapUsed=168MB heapTotal=89MB rss=328MB external=103MB cpuPercent=2.2
+2026-09-25T07:43:35.181Z [CliMemWatch] pid=5336 heapUsed=141MB heapTotal=88MB rss=299MB external=81MB cpuPercent=1.8
+2026-09-25T07:44:35.181Z [CliMemWatch] pid=5336 heapUsed=134MB heapTotal=86MB rss=267MB external=75MB cpuPercent=1.4
+2026-09-25T07:45:35.185Z [CliMemWatch] pid=5336 heapUsed=143MB heapTotal=87MB rss=284MB external=81MB cpuPercent=2.9
